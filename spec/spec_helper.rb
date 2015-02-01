@@ -3,6 +3,8 @@ require 'rspec/its'
 
 require 'starcitizen-tools'
 
+INTEGRATION_TEST = ENV['INTEGRATION_TEST']
+
 RSpec.configure do |c|
   # Enable full backtrace.
   c.backtrace_exclusion_patterns = [/rspec/]
