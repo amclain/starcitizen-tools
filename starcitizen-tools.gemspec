@@ -23,7 +23,9 @@ Gem::Specification.new do |s|
     'sct'
   ]
   
-  s.add_development_dependency 'rake',      '~> 10.4'
+  s.add_dependency 'rake',    '~> 10.4'
+  s.add_dependency 'rubyzip', '~> 1.1'
+  
   s.add_development_dependency 'yard',      '~> 0.8.7'
   s.add_development_dependency 'rspec',     '~> 3.1'
   s.add_development_dependency 'rspec-its', '~> 1.1'
